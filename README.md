@@ -2,6 +2,7 @@
 
 Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned. All the past and upcoming sessions will be announced and captured here. To request or correction please use [https://github.com/wrijugh/TechTalks/issues](https://github.com/wrijugh/TechTalks/issues)
 
+[https://wrijugh.github.io/TechTalks/](https://wrijugh.github.io/TechTalks/)
 ## Upcoming Sessions
 
 ### Databases in Azure
@@ -9,10 +10,16 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 ### Hosting Applications in Azure
 
 ### Azure DevOps
+### Azure DevOps
+### Azure DevOps
+### Azure DevOps
+### Azure DevOps
+### Azure DevOps
+### Azure DevOps
 
 ## Delivered - available on-demand
 
-### Getting Started in Azure
+**01. Getting Started in Azure**
 *13-May-2021*
 
 <!-- [Slide - Upcoming]() -->
