@@ -1,16 +1,21 @@
 # Tech Talks
 
-Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned. All the past and upcoming sessions will be announced and captured here.. 
-## Planned
+Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned. All the past and upcoming sessions will be announced and captured here. To request or correction please use [https://github.com/wrijugh/TechTalks/issues](https://github.com/wrijugh/TechTalks/issues)
 
+## Upcoming Sessions
+
+### Databases in Azure
+
+### Hosting Applications in Azure
+
+### Azure DevOps
 
 ## Delivered - available on-demand
 
 ### Getting Started in Azure
-
 *13-May-2021*
 
-[Slide - Upcoming]()
+<!-- [Slide - Upcoming]() -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rm6MpG7YfZw?start=870" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
