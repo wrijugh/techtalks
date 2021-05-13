@@ -18,13 +18,13 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ## Resources
 
-- Meetup Group - []()
-- Youtube Channel - []()
-- LinkedIn - []()
-- Twitter - []()
-- Facebook Page - []()
-- Blog - []()
-- Blog - []() 
+- Meetup Group - [meetingplace.io/groups/azureall](https://meetingplace.io/groups/azureall)
+- Youtube Channel - [youtube.com/c/TechTalksWriju](https://www.youtube.com/c/TechTalksWriju)
+- LinkedIn - [linkedin.com/in/wrijughosh/](https://www.linkedin.com/in/wrijughosh/)
+- Twitter - [@wrijugh](https://twitter.com/wrijugh)
+- Facebook Page - [www.facebook.com/groups/azureforall](https://www.facebook.com/groups/azureforall)
+- Blog - [dev.to/wrijugh](https://dev.to/wrijugh)
+- Blog - [wriju.wordpress.com](https://wriju.wordpress.com/)
 
 ### Support or Contact
 
