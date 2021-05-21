@@ -14,6 +14,7 @@ Register: [https://meetingplace.io/groups/azureall/events/6222](https://meetingp
 
 <!-- - Azure DevO
 - Databases in Azure -->
+
 ## Delivered - available on-demand
 
 **01. Getting Started in Azure**
