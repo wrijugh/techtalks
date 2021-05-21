@@ -6,8 +6,10 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ## Upcoming Sessions
 
-**Hosting Applications in Azure**
-May 22, 2:00 - 2:45 PM (IST, UTC+5:30) 
+### Hosting Applications in Azure
+
+May 22, 2:00 - 2:45 PM (IST, UTC+5:30)
+
 Register: [https://meetingplace.io/groups/azureall/events/6222](https://meetingplace.io/groups/azureall/events/6222)
 
 [Youtube Live](https://youtu.be/5j1XA6nw-DE)
