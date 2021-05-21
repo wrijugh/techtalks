@@ -12,8 +12,12 @@ Register: [https://meetingplace.io/groups/azureall/events/6222](https://meetingp
 
 [Youtube Live](https://youtu.be/5j1XA6nw-DE)
 
-<!-- - Azure DevO
-- Databases in Azure -->
+<!-- 
+- Function App
+- CosmosDB
+- Azure DevOps
+- Databases in Azure 
+-->
 
 ## Delivered - available on-demand
 
