@@ -4,12 +4,14 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 [https://wrijugh.github.io/TechTalks/](https://wrijugh.github.io/TechTalks/)
 
-## Upcoming Sessions
+## Upcoming Sessio
 
-- Databases in Azure
-- Hosting Applications in Azure
-- Azure DevOps
-
+**Hosting Applications in Azure**
+May 22, 2:00 - 2:45 PM (IST, UTC+5:30) 
+Register: [https://meetingplace.io/groups/azureall/events/6222](https://meetingplace.io/groups/azureall/events/6222) 
+[Youtube Live](https://youtu.be/5j1XA6nw-DE) 
+<!-- - Azure DevO
+- Databases in Azure -->
 ## Delivered - available on-demand
 
 **01. Getting Started in Azure**
