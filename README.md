@@ -6,13 +6,7 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ## Upcoming Sessions
 
-### Hosting Applications in Azure
-
-May 22, 2:00 - 2:45 PM (IST, UTC+5:30)
-
-Register: [https://meetingplace.io/groups/azureall/events/6222](https://meetingplace.io/groups/azureall/events/6222)
-
-[Youtube Live](https://youtu.be/5j1XA6nw-DE)
+###
 
 <!-- 
 - Function App
@@ -23,14 +17,21 @@ Register: [https://meetingplace.io/groups/azureall/events/6222](https://meetingp
 
 ## Past Events
 
-**01. Getting Started in Azure**
-*13-May-2021*
+**01. Getting Started in Azure** *13-May-2021*
 
 <!-- [Slide - Upcoming]() -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rm6MpG7YfZw?start=870" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=rm6MpG7YfZw](https://www.youtube.com/watch?v=rm6MpG7YfZw&t=870s)
+[https://www.youtube.com/watch?v=rm6MpG7YfZw](https://www.youtube.com/watch?v=rm6MpG7YfZw)
+
+---
+
+**02. Getting Started in Azure** *22-May-2021*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5j1XA6nw-DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.youtube.com/watch?v=5j1XA6nw-DE](https://www.youtube.com/watch?v=5j1XA6nw-DE)
 
 ## Resources
 
