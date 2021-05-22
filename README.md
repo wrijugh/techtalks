@@ -27,7 +27,7 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ---
 
-**02. Getting Started in Azure** *22-May-2021*
+**02. Hosting Web Application in Azure** *22-May-2021*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5j1XA6nw-DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
