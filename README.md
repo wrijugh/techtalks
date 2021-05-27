@@ -1,13 +1,11 @@
-# Tech Talks
+Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned. All the past and upcoming sessions will be announced and captured here. To request or correction please use [https://github.com/wrijugh/techtalks/issues](https://github.com/wrijugh/techtalks/issues)
 
-Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned. All the past and upcoming sessions will be announced and captured here. To request or correction please use [https://github.com/wrijugh/TechTalks/issues](https://github.com/wrijugh/TechTalks/issues)
-
-[https://wrijugh.github.io/TechTalks/](https://wrijugh.github.io/TechTalks/)
+[https://wrijugh.github.io/techtalks/](https://wrijugh.github.io/techtalks/)
 
 ***Upcoming event***
 ## Containers in Azure
 
-Date and Time: 28 May 2021 at 1 PM IST (7:30 AM UTC)
+*28 May 2021 at 1 PM IST (7:30 AM UTC)*
 
 **Register** [https://meetingplace.io/azureall/events/6226](https://meetingplace.io/azureall/events/6226)
 
