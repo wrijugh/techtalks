@@ -54,6 +54,7 @@ Various different container hosting platforms in Azure. Covering
 [https://www.youtube.com/watch?v=c_fwsqDrr4M](https://www.youtube.com/watch?v=c_fwsqDrr4M)
 
 ---
+
 ## Resources
 
 - Meetup Group - [meetingplace.io/groups/azureall](https://meetingplace.io/groups/azureall)
