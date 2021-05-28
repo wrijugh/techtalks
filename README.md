@@ -49,9 +49,9 @@ Various different container hosting platforms in Azure. Covering
 
 **03. Containers in Azure** *28-May-2021*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c_fwsqDrr4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c_fwsqDrr4M?start=126" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=c_fwsqDrr4M](https://www.youtube.com/watch?v=c_fwsqDrr4M)
+[https://www.youtube.com/watch?v=c_fwsqDrr4M](https://www.youtube.com/watch?v=c_fwsqDrr4M&t=126s)
 
 ---
 
