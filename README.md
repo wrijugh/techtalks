@@ -3,21 +3,9 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 [https://wrijugh.github.io/techtalks/](https://wrijugh.github.io/techtalks/)
 
 ***Upcoming event***
-## Containers in Azure
+## Stay tuned
 
-*28 May 2021 at 1 PM IST (7:30 AM UTC)*
-
-**Register** [https://meetingplace.io/azureall/events/6226](https://meetingplace.io/azureall/events/6226)
-
-**Agenda**
-
-Various different container hosting platforms in Azure. Covering
-
-- Build a sample app for Container
-- Container in App Services
-- Azure Container Registry
-- Azure Container Instance
-- Azure Kubernetes Service
+For the Notification join **Meetup Group** [meetingplace.io/groups/azureall](https://meetingplace.io/groups/azureall)  
 
 ---
 
