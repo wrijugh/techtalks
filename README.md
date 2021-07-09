@@ -45,7 +45,7 @@ For the Notification join **Meetup Group** [meetingplace.io/groups/azureall](htt
 
 ## Resources
 
-- Meetup Group - [meetingplace.io/groups/azureall](https://meetingplace.io/groups/azureall)
+- Google Group - [https://groups.google.com/g/techtalks-wriju/](https://groups.google.com/g/techtalks-wriju/)
 - Youtube Channel - [youtube.com/c/TechTalksWriju](https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1)
 - LinkedIn - [linkedin.com/in/wrijughosh/](https://www.linkedin.com/in/wrijughosh/)
 - Twitter - [@wrijugh](https://twitter.com/wrijugh)
