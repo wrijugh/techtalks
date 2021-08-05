@@ -8,13 +8,18 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ## Azure Fundamentals [AZ-900] - Part 1
 
-**6-August-2021 1 - 3 PM IST**
+**6-August-2021 at 1 - 3 PM IST**
 
 [Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=NWVqMTh2Zms3M2JmbDh0N2gwdDRlOGs5ZjAgd3JpanV0ZWNodGFsa0Bt&tmsrc=wrijutechtalk%40gmail.com)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FuAfECKUTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://www.youtube.com/watch?v=FuAfECKUTo4](https://www.youtube.com/watch?v=FuAfECKUTo4)
+
+***Some Readings***
+
+- [Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts)
+- [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services)
 
 ***Stay tuned***
 
