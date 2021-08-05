@@ -59,7 +59,11 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ## Resources
 
+<<<<<<< HEAD
 - Email Notification - [groups.google.com/g/techtalks-wriju](https://groups.google.com/g/techtalks-wriju)
+=======
+- Google Group - [https://groups.google.com/g/techtalks-wriju/](https://groups.google.com/g/techtalks-wriju/)
+>>>>>>> b8f268df4811e80fb6ec3aa33817dbfa11ae9a75
 - Youtube Channel - [youtube.com/c/TechTalksWriju](https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1)
 - Dev.io Blog - [dev.to/wrijugh](https://dev.to/wrijugh)
 - LinkedIn - [linkedin.com/in/wrijughosh/](https://www.linkedin.com/in/wrijughosh/)
