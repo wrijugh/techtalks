@@ -16,7 +16,7 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 [https://www.youtube.com/watch?v=FuAfECKUTo4](https://www.youtube.com/watch?v=FuAfECKUTo4)
 
-## Stay tuned
+***Stay tuned***
 
 For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https://groups.google.com/g/techtalks-wriju)  
 
