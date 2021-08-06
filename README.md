@@ -16,7 +16,6 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ***Some Readings***
 
-- [Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts)
 - [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services)
 
 ***Stay tuned***
@@ -65,6 +64,8 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WzJ_r1Q77fQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://www.youtube.com/watch?v=c_fwsqDrr4M](https://www.youtube.com/watch?v=WzJ_r1Q77fQ)
+
+[Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts)
 
 ---
 
