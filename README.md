@@ -6,17 +6,13 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ***Upcoming event***
 
-## Azure Fundamentals [AZ-900] - Module 2
+## Azure Fundamentals AZ-900 Module 3 & 4
 
-**6-August-2021 at 1 - 3 PM IST**
+*13-August-2021 1 PM - 2:30 PM IST*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FuAfECKUTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pUMBpfZNALw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=FuAfECKUTo4](https://www.youtube.com/watch?v=FuAfECKUTo4)
-
-***Some Readings***
-
-- [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services)
+[https://www.youtube.com/watch?v=rm6MpG7YfZw](https://www.youtube.com/watch?v=pUMBpfZNALw)
 
 ***Stay tuned***
 
@@ -59,13 +55,15 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
-**04. Azure Fundamentals AZ-900 Module 1** *5-August-2021*
+**01. Azure Fundamentals AZ-900 - Module 2** *6-August-2021*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WzJ_r1Q77fQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FuAfECKUTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[https://www.youtube.com/watch?v=c_fwsqDrr4M](https://www.youtube.com/watch?v=WzJ_r1Q77fQ)
+[https://www.youtube.com/watch?v=FuAfECKUTo4](https://www.youtube.com/watch?v=FuAfECKUTo4)
 
-[Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts)
+***Some Readings***
+
+- [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services)
 
 ---
 
