@@ -6,11 +6,9 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ***Upcoming event***
 
-## Azure Fundamentals [AZ-900] - Part 1
+## Azure Fundamentals [AZ-900] - Module 2
 
 **6-August-2021 at 1 - 3 PM IST**
-
-[Calendar](https://calendar.google.com/event?action=TEMPLATE&tmeid=NWVqMTh2Zms3M2JmbDh0N2gwdDRlOGs5ZjAgd3JpanV0ZWNodGFsa0Bt&tmsrc=wrijutechtalk%40gmail.com)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FuAfECKUTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -62,16 +60,24 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
+**04. Azure Fundamentals AZ-900 Module 1** *5-August-2021*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WzJ_r1Q77fQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.youtube.com/watch?v=c_fwsqDrr4M](https://www.youtube.com/watch?v=WzJ_r1Q77fQ)
+
+---
+
 ## Resources
 
-- Email Notification - [groups.google.com/g/techtalks-wriju](https://groups.google.com/g/techtalks-wriju)
+- Email Notification - [https://groups.google.com/g/techtalks-wriju](https://groups.google.com/g/techtalks-wriju)
 - Google Group - [https://groups.google.com/g/techtalks-wriju/](https://groups.google.com/g/techtalks-wriju/)
-- Youtube Channel - [youtube.com/c/TechTalksWriju](https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1)
-- Dev.io Blog - [dev.to/wrijugh](https://dev.to/wrijugh)
-- LinkedIn - [linkedin.com/in/wrijughosh/](https://www.linkedin.com/in/wrijughosh/)
+- Youtube Channel - [https://youtube.com/c/TechTalksWriju](https://www.youtube.com/c/TechTalksWriju?sub_confirmation=1)
+- Dev.io Blog - [https://dev.to/wrijugh](https://dev.to/wrijugh)
+- LinkedIn - [https://linkedin.com/in/wrijughosh/](https://www.linkedin.com/in/wrijughosh/)
 - Twitter - [@wrijugh](https://twitter.com/wrijugh)
-- Facebook Page - [www.facebook.com/groups/azureforall](https://www.facebook.com/groups/azureforall)
-- Blog - [wriju.wordpress.com](https://wriju.wordpress.com/)
+- Facebook Page - [https://www.facebook.com/groups/azureforall](https://www.facebook.com/groups/azureforall)
+- Blog - [vhttps:/wriju.wordpress.com](https://wriju.wordpress.com/)
 
 ### Support or Contact
 
