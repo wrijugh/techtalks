@@ -55,7 +55,7 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
-**01. Azure Fundamentals AZ-900 - Module 2** *6-August-2021*
+**04. Azure Fundamentals AZ-900 - Module 2** *6-August-2021*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FuAfECKUTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -66,6 +66,15 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 - [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services)
 
 ---
+
+**05. Azure Fundamentals AZ-900 Module 3 & 4** *13-August-2021*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pUMBpfZNALw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.youtube.com/watch?v=rm6MpG7YfZw](https://www.youtube.com/watch?v=pUMBpfZNALw)
+
+---
+
 
 ## Resources
 
