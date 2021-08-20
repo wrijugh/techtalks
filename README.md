@@ -23,7 +23,7 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ## Past Events
 
-**01. Getting Started in Azure** *13-May-2021*
+**01. Getting Started in Azure** 
 
 <!-- [Slide - Upcoming]() -->
 
@@ -33,7 +33,7 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
-**02. Hosting Web Application in Azure** *22-May-2021*
+**02. Hosting Web Application in Azure** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5j1XA6nw-DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
-**03. Containers in Azure** *28-May-2021*
+**03. Containers in Azure** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c_fwsqDrr4M?start=126" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -49,19 +49,23 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
-**04. Azure Fundamentals AZ-900 - Module 2** *6-August-2021*
+**04. Azure Fundamentals AZ-900 - Module 1** 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E8bwwecZTbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[https://www.youtube.com/watch?v=E8bwwecZTbc](https://www.youtube.com/watch?v=E8bwwecZTbc)
+
+---
+
+**05. Azure Fundamentals AZ-900 - Module 2** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FuAfECKUTo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [https://www.youtube.com/watch?v=FuAfECKUTo4](https://www.youtube.com/watch?v=FuAfECKUTo4)
 
-***Some Readings***
-
-- [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services)
-
 ---
 
-**05. Azure Fundamentals AZ-900 Module 3 & 4** *13-August-2021*
+**06. Azure Fundamentals AZ-900 Module 3 & 4** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pUMBpfZNALw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -69,7 +73,7 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
-**06. Azure Fundamentals AZ-900 Module 5 & 6** *20-August-2021*
+**06. Azure Fundamentals AZ-900 Module 5 & 6** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VxzqVpgbrV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
