@@ -49,6 +49,8 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 
 ---
 
+### Azure Fundamentals [AZ-900]
+
 **04. Azure Fundamentals AZ-900 - Module 1** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E8bwwecZTbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
