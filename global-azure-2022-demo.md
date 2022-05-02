@@ -53,6 +53,26 @@ Create the ACR via either portal or script. Portal is good for demo to clear the
 
 Then from local shell push it to Azure. Follow the below steps/
 
+
+## Push to ACR
+
+### Create ACR
+
+Create in Portal best for demo. 
+
+**Azure CLI** 
+
+```
+acr=wgacr2
+az acr create -g $g -n $acr --admin-enabled=true --sku=basic
+```
+
+
+First login to the ACR
+```
+docker login -u $acr -p SuperSecret $acr.azurecr.io
+```
+
 ## Download the nginx image to local machine 
 
 ```
@@ -68,23 +88,17 @@ To verify if the image is available locally and note the image_id
 docker images
 ```
 
-Then tag it 
+Then re-tag it as per the acr created above 
 
 ```
-docker tag IMAGE_ID wgacr.azurecr.io/nginx:latest
+image=$acr.azurecr.io/nginx:latest
+docker tag IMAGE_ID $image
 ```
 
----
-
-## Push to ACR
-First login to the ACR
-```
-docker login -u wgacr -p SuperSecret wgacr.azurecr.io
-```
 
 Push the image to ACR
 ```
-docker push wgacr.azurecr.io/nginx:latest
+docker push $image
 ```
 ---
 
@@ -99,18 +113,18 @@ From the overview of ACI get the public IP and open it in browser. You will see 
 You may also login to the Shell for ACR 
 
 ```
-az acr login -n wgacr
+az acr login -n $acr
 ```
 
 Below will create ACI but prompt for the registry username and password. 
 ```
-az container create -g $g -n nginx420 --image=wgacr.azurecr.io/nginx --ip-address=Public 
+az container create -g $g -n nginx420 --image=$image --ip-address=Public 
 ```
 
 To avoid that, you may pass two additional parameters
 
 ```
-az container create -g $g -n nginx420 --image=wgacr.azurecr.io/nginx --ip-address=Public --registry-username=wgacr --registry-password=PASSWORD
+az container create -g $g -n nginx420 --image=$image --ip-address=Public --registry-username=$acr --registry-password=PASSWORD
 ```
 
 ## Azure App Service (Container)
@@ -123,7 +137,7 @@ plan=asPlan420
 az appservice plan create -g $g -n $plan --is-linux --sku B2
 
 
-az webapp create -g $g -n wgwebapp420 -p $plan -i=wgacr.azurecr.io/nginx:latest -s wgacr -w PASSWORD
+az webapp create -g $g -n wgwebapp420 -p $plan -i=$image -s wgacr -w PASSWORD
 ```
 
 ## Azure Kubernetes Service (AKS)
@@ -139,7 +153,7 @@ alias k=kubectl
 
 k get nodes
 
-k create deploy nginx --image=wgacr.azurecr.io/nginx:latest
+k create deploy nginx --image=$image
 
 k expose deploy nginx --port=80 --type=LoadBalancer
 
