@@ -116,10 +116,20 @@ az container create -g $g -n nginx420 --image=wgacr.azurecr.io/nginx --ip-addres
 ## Azure App Service (Container)
 To create a Azure App Service with container use portal. 
 
+```
+# Create App Service Plan
+plan=wgplan420
+az appservice plan create -g $g -n $plan
+
+
+az webapp create -g $g -n wgwebapp420 -p $plan -i=wgacr.azurecr.io/nginx:latest -s wgacr -w PASSWORD
+```
 
 ## Azure Kubernetes Service (AKS)
 
 ### Create
+
+Create AKS cluster from Azure Portal. However, recommended is to use the Azure CLI. 
 
 
 ### Deployment 
@@ -132,7 +142,9 @@ k create deploy nginx --image=wgacr.azurecr.io/nginx:latest
 
 k expose deploy nginx --port=80 --type=LoadBalancer
 
-k 
+k get svc 
+
+curl http:Public-Ip of the service
 
 ```
 
