@@ -6,7 +6,11 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 ***Upcoming event***
 
-## Building Apps using Azure Serverless
+## Global Azure 2022 
+
+7-May-2022 (in-person)
+
+[Demo](global-azure-2022-demo.md)
 
 ***Stay tuned***
 
