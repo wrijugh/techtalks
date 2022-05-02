@@ -117,9 +117,10 @@ az container create -g $g -n nginx420 --image=wgacr.azurecr.io/nginx --ip-addres
 To create a Azure App Service with container use portal. 
 
 ```
-# Create App Service Plan
-plan=wgplan420
-az appservice plan create -g $g -n $plan
+# Create App Service Plan (Linux)
+plan=asPlan420
+
+az appservice plan create -g $g -n $plan --is-linux --sku B2
 
 
 az webapp create -g $g -n wgwebapp420 -p $plan -i=wgacr.azurecr.io/nginx:latest -s wgacr -w PASSWORD
