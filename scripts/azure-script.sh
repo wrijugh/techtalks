@@ -1,16 +1,18 @@
 # Global Azure May 2022
+az account set "MSDN WG 2 2021"
 
 rnd=$RANDOM
 g=rg-demo$rnd
 
-az group create -n $g -l eastus
+loc=southeastasia
+az group create -n $g -l $loc
 
 # Azure Container Registry (ACR)
 acr=wgacr$rnd
 az acr create -g $g -n $acr --admin-enabled=true --sku=basic
 
 # -----------Manually Copy the Password from Portal------------
-acrpwd=BieaKhEMFHBrDougN9tl8xAh3Z9XV/iR
+acrpwd=2oMaYhOn4j5m1EVRS=xBZXiYC5GUYXay
 
 docker login -u $acr -p $acrpwd $acr.azurecr.io
 
@@ -36,7 +38,9 @@ aci=nginx$rnd
 az container create -g $g -n $aci --image=$image --ip-address=Public --registry-password=$acrpwd --registry-username=$acr 
 
 # Task: Get Public IP
+ip=$(az container show -g $g -n $aci --query 'ipAddress.ip' -o tsv)
 
+curl http://$ip
 
 # Azure App Service (Container)
 plan=asPlan$rnd
