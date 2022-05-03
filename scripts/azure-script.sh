@@ -1,5 +1,5 @@
 # Global Azure May 2022
-az account set "MSDN WG 2 2021"
+az account set "MSDN WG 2021"
 
 rnd=$RANDOM
 g=rg-demo$rnd
