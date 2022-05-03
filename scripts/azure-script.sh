@@ -27,7 +27,7 @@ image=$acr.azurecr.io/$img:latest
 docker images
 #----------------Manually copy the IMAGE ID from console-----------
 # Task: Get docker image ID for $img
-image_id=fa5269854a5e
+image_id=fa5269854a5e # this is fixed thumbprint for nginx
 
 docker tag $image_id $image
 
@@ -53,3 +53,24 @@ az webapp create -g $g -n $webapp -p $plan -i=$image -s $acr -w $acrpwd
 curl http://$webapp.azurewebsites.net 
 
 # Azure Kubernetes Service (AKS)
+aks=wgaks$rnd
+az aks create -n $aks -g $g --generate-ssh-keys -c 2 
+
+az aks get-credentials -n $aks -g $g
+
+#attach AKS with ACR
+az aks update -n $aks -g $g --attach-acr $acr
+
+alias k=kubectl
+
+k create secret docker-registry my-secret \
+--docker-server=$acr.azurecr.io --docker-username=$acr \
+--docker-password=$acrpwd --docker-email=a@a.com
+
+k run nginxpod --image=$nginx 
+
+k create deploy nginxweb --image=$nginx
+
+k expose deploy nginxweb --port=80 --type=LoadBalancer 
+
+k get svc -w
