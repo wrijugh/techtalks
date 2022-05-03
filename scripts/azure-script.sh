@@ -67,9 +67,9 @@ k create secret docker-registry my-secret \
 --docker-server=$acr.azurecr.io --docker-username=$acr \
 --docker-password=$acrpwd --docker-email=a@a.com
 
-k run nginxpod --image=$nginx 
+k run nginxpod --image=$image 
 
-k create deploy nginxweb --image=$nginx
+k create deploy nginxweb --image=$image
 
 k expose deploy nginxweb --port=80 --type=LoadBalancer 
 
