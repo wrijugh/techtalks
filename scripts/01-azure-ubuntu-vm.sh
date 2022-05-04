@@ -18,7 +18,7 @@ az vm create -n $vm -g $g --image=ubuntults --generate-ssh-keys \
 az vm auto-shutdown -g $g -n $vm --time 1430
 
 # to get the Public IP
-az vm show -d -g $g -n $vm --query 'publicIps'
+az vm show -d -g $g -n $vm --query 'publicIps' -o tsv 
 
 # To update VM with new SSH key
 ssh-keygen 
