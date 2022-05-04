@@ -1,11 +1,20 @@
 
 rnd=$RANDOM
-n=wg-vm-ubuntu$rnd
+vm=wg-vm-ubuntu$rnd
 g=rg-ubuntu$rnd
+loc=southeastasia
 
-az group create -n $g -l southeastasia
+adminuser='wriju'
+pwd='P@ssw0rd1234'
 
-az vm create -n $n -g $g --image=ubuntults --generate-ssh-keys
+az group create -n $g -l $loc
 
-az vm create -n $n -g $g --image=ubuntults --generate-ssh-keys --use-unmanaged-disk --storage-sku=Standard_LRS --size Standard 
+# Economic VM
+az vm create -n $vm -g $g --image=ubuntults --generate-ssh-keys \
+    --admin-username $adminuser --admin-password @pwd --storage-sku=Standard_LRS
+
+az vm auto-shutdown -g $g -n $vm --time 1430
+
+
+az vm create -g $g -n $vm --image=ubuntults --generate-ssh-keys --use-unmanaged-disk --storage-sku=Standard_LRS --size Standard 
     --authentication-mode=all
