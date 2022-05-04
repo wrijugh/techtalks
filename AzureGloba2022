@@ -1,1 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T15:44:51.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" version="17.5.1" etag="gpAxS0KHqxwY-k3LWrP8" type="github"><diagram id="Nm9XK6kCDeNwuUkORlln">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-04T16:02:34.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="iODqumjL227cB_asgeb1" version="17.5.1" type="github">
+  <diagram id="Nm9XK6kCDeNwuUkORlln" name="Page-1">
+    <mxGraphModel dx="1006" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-3" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="81.35" y="224" width="54.35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-5" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_visual_studio;" vertex="1" parent="1">
+          <mxGeometry x="81.35" y="370" width="53" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-6" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="68" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Container_Instances.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="48" width="64" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="379" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="217" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-12" value="&lt;b&gt;Ubuntu Dev VM&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="58.519999999999996" y="281" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-13" value="&lt;b&gt;Containerize&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="281" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-14" value="&lt;b&gt;Visual Studio Code&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="59.199999999999996" y="439" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-15" value="&lt;b&gt;Container Registry&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384.66999999999996" y="281" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-16" value="&lt;b&gt;Azure Container Instance&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="128" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-17" value="&lt;b&gt;Azure Web App Container&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="592.67" y="290" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-18" value="&lt;b&gt;Azure Kubernetes (AKS)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="592.67" y="450" width="98.65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.481;entryY=1.311;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HQ0EKGvZ-IvAFkVv5Wom-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="106" y="360" as="sourcePoint" />
+            <mxPoint x="157.85000000000002" y="311" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157.85" y="250" as="sourcePoint" />
+            <mxPoint x="220" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.9999999999999" y="248.5" as="sourcePoint" />
+            <mxPoint x="382.15" y="248.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="249.5" as="sourcePoint" />
+            <mxPoint x="590" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="240" as="sourcePoint" />
+            <mxPoint x="600" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="240" />
+              <mxPoint x="490" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQ0EKGvZ-IvAFkVv5Wom-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
