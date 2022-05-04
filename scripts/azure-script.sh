@@ -1,10 +1,10 @@
 # Global Azure May 2022
-az account set "MSDN WG 2021"
+az account set --subscription "MSDN WG 2021"
 
 rnd=$RANDOM
 g=rg-demo$rnd
-
 loc=southeastasia
+
 az group create -n $g -l $loc
 
 # Azure Container Registry (ACR)
@@ -12,7 +12,9 @@ acr=wgacr$rnd
 az acr create -g $g -n $acr --admin-enabled=true --sku=basic
 
 # -----------Manually Copy the Password from Portal------------
-acrpwd=2oMaYhOn4j5m1EVRS=xBZXiYC5GUYXay
+# az acr credential show -n $acr --query 'passwords[0].value' -o tsv
+
+acrpwd=$(az acr credential show -n $acr --query 'passwords[0].value' -o tsv)
 
 docker login -u $acr -p $acrpwd $acr.azurecr.io
 
@@ -38,15 +40,15 @@ aci=nginx$rnd
 az container create -g $g -n $aci --image=$image --ip-address=Public --registry-password=$acrpwd --registry-username=$acr 
 
 # Task: Get Public IP
-ip=$(az container show -g $g -n $aci --query 'ipAddress.ip' -o tsv)
+aciIp=$(az container show -g $g -n $aci --query 'ipAddress.ip' -o tsv)
 
-curl http://$ip
+curl http://$aciIp
 
 # Azure App Service (Container)
 plan=asPlan$rnd
 webapp=wgwebapp$rnd
 
-az appservice plan create -g $g -n $plan --is-linux --sku B2
+az appservice plan create -g $g -n $plan --is-linux --sku B2 -l eastus
 
 az webapp create -g $g -n $webapp -p $plan -i=$image -s $acr -w $acrpwd
 
@@ -54,7 +56,7 @@ curl http://$webapp.azurewebsites.net
 
 # Azure Kubernetes Service (AKS)
 aks=wgaks$rnd
-az aks create -n $aks -g $g --generate-ssh-keys -c 2 
+az aks create -n $aks -g $g --generate-ssh-keys -c 1 
 
 az aks get-credentials -n $aks -g $g
 
@@ -63,10 +65,12 @@ az aks update -n $aks -g $g --attach-acr $acr
 
 alias k=kubectl
 
-k create secret docker-registry my-secret \
---docker-server=$acr.azurecr.io --docker-username=$acr \
---docker-password=$acrpwd --docker-email=a@a.com
+# k create secret docker-registry my-secret \
+# --docker-server=$acr.azurecr.io --docker-username=$acr \
+# --docker-password=$acrpwd --docker-email=a@a.com
 
+dockerhubimage="wrijughosh/nginx:latest"
+image=$dockerhubimage #to avoid private reg
 k run nginxpod --image=$image 
 
 k create deploy nginxweb --image=$image
