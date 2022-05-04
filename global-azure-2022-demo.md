@@ -1,5 +1,5 @@
 # Global Azure May 2022
-Demo steps and commands 
+Demo steps and commands. This is just for idea. For tested script please use: ![Azure Script](scripts/azure-script.sh)
 
 ## Same Nginx Image as WebApp used by kubectl
 Nginx is a web app which can be used for demonstration purpose. 
