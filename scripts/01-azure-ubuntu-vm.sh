@@ -17,5 +17,19 @@ az vm create -n $vm -g $g --image=ubuntults --generate-ssh-keys \
 
 az vm auto-shutdown -g $g -n $vm --time 1430
 
+# to get the Public IP
+az vm show -d -g $g -n $vm --query 'publicIps'
 
-az vm create -g $g -n $vm --image=ubuntults --generate-ssh-keys 
+# To update VM with new SSH key
+ssh-keygen 
+
+az vm user update -g $g -n $vm \
+  --username NewUser \
+  --ssh-key-value ~/.ssh/id_rsa.pub
+
+# To update a VM with new username and password
+az vm user update -g $g -n $vm \
+    -u $adminuser -p $pwd
+
+
+# az vm create -g $g -n $vm --image=ubuntults --generate-ssh-keys 
