@@ -41,7 +41,7 @@ az container create -g $g -n $aci --image=$image --ip-address=Public --registry-
 
 # Task: Get Public IP
 aciIp=$(az container show -g $g -n $aci --query 'ipAddress.ip' -o tsv)
-
+echo $aciIp
 curl http://$aciIp
 
 # Azure App Service (Container)
@@ -56,7 +56,7 @@ curl http://$webapp.azurewebsites.net
 
 # Azure Kubernetes Service (AKS)
 aks=wgaks$rnd
-az aks create -n $aks -g $g --generate-ssh-keys -c 1 
+az aks create -n $aks -g $g --generate-ssh-keys #-c 1 
 
 az aks get-credentials -n $aks -g $g
 

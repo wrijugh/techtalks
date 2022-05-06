@@ -13,14 +13,16 @@ az group create -n $g -l $loc
 
 # Economic VM
 az vm create -n $vm -g $g --image=ubuntults --generate-ssh-keys \
-    --admin-username $adminuser --admin-password @pwd --storage-sku=Standard_LRS
+    --admin-username $adminuser --admin-password $pwd --storage-sku=Standard_LRS
 
 az vm auto-shutdown -g $g -n $vm --time 1430
 
 # to get the Public IP
-az vm show -d -g $g -n $vm --query 'publicIps' -o tsv 
+publicIp=$(az vm show -d -g $g -n $vm --query 'publicIps' -o tsv) 
+ssh $adminuser@$publicIp
+# ssh $adminuser@$(az vm show -d -g $g -n $vm --query 'publicIps' -o tsv)
 
-ssh $adminuser@$(az vm show -d -g $g -n $vm --query 'publicIps' -o tsv)
+
 
 # To update VM with new SSH key
 ssh-keygen 
