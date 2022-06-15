@@ -29,7 +29,7 @@ image=$acr.azurecr.io/$img:latest
 docker images
 #----------------Manually copy the IMAGE ID from console-----------
 # Task: Get docker image ID for $img
-image_id=fa5269854a5e # this is fixed thumbprint for nginx
+image_id=$(docker images -f reference="nginx*" -q)
 
 docker tag $image_id $image
 
