@@ -1,7 +1,7 @@
 
-dotnet new webapp --name sampleweb --no-https
+dotnet new webapp --name SampleWeb --no-https
 
-cd sampleweb
+cd SampleWeb
 
 dotnet build
 
