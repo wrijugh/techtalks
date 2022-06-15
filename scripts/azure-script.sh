@@ -53,6 +53,7 @@ az container create -g $g2 -n $aci --image=$image --ip-address=Public --registry
 
 # Task: Get Public IP
 aciIp=$(az container show -g $g2 -n $aci --query 'ipAddress.ip' -o tsv)
+echo "...ACI Public IP..."
 echo $aciIp
 curl http://$aciIp
 
