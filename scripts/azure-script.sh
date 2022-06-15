@@ -2,18 +2,19 @@
 # az account set --subscription "MSDN WG 2021"
 # Note: please run this script as $ bash file.sh if you use $ sh file.sh may not work because it does not understand $RANDOM
 
-echo "Creating variables..."
-rnd=$RANDOM
+echo ".....Creating variables....."
+rnd=`date +%d%m%Y`
+# rnd=$RANDOM
 g=rg-demo$rnd
 g2=rg-demo-del$rnd
 loc=southeastasia
 
-echo "Creating Resource Groups"
+echo ".....Creating Resource Groups....."
 az group create -n $g -l $loc
 # Create this second rg to keep temp resources like aci and websites which can be deleted when needed
 az group create -n $g2 -l $loc
 
-echo "Creating ACR"
+echo ".....Creating ACR....."
 # Azure Container Registry (ACR)
 acr=wgacr$rnd
 az acr create -g $g -n $acr --admin-enabled=true --sku=basic
@@ -74,6 +75,8 @@ az aks create -n $aks -g $g --generate-ssh-keys #-c 1
 
 az aks get-credentials -n $aks -g $g
 
+echo "Attaching AKS and ACR"
+
 #attach AKS with ACR
 az aks update -n $aks -g $g --attach-acr $acr
 
@@ -83,6 +86,7 @@ az aks update -n $aks -g $g --attach-acr $acr
 # --docker-server=$acr.azurecr.io --docker-username=$acr \
 # --docker-password=$acrpwd --docker-email=a@a.com
 
+#---------------------------------------------
 # dockerhubimage="wrijughosh/$img:latest"
 # image=$dockerhubimage #to avoid private reg
 # k run nginxpod --image=$image 
@@ -92,6 +96,7 @@ az aks update -n $aks -g $g --attach-acr $acr
 # k expose deploy $img'web' --port=80 --type=LoadBalancer 
 
 # k get svc -w
+#---------------------------------------------
 
 #=================
 # To Cleanup 
