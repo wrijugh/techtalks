@@ -1,0 +1,12 @@
+
+dotnet new webapp --name sampleweb --no-https
+
+cd sampleweb
+
+dotnet build
+
+#add Dockerfile
+image=wrijughosh/sampleweb:v1
+docket build -t wrijughosh/sampleweb:v1 .
+
+docker push $image
