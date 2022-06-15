@@ -5,8 +5,8 @@
 echo ".....Creating variables....."
 rnd=`date +%d%m%Y`
 # rnd=$RANDOM
-g=rg-demo$rnd
-g2=rg-demo-del$rnd
+g=rg-demo-meetup
+g2=rg-demo-meetup-$rnd-del
 loc=southeastasia
 
 echo ".....Creating Resource Groups....."
@@ -21,31 +21,31 @@ az acr create -g $g -n $acr --admin-enabled=true --sku=basic
 
 acrpwd=$(az acr credential show -n $acr --query 'passwords[0].value' -o tsv)
 
-echo "ACR Passowrd "$acrpwd
+echo ".....ACR Passowrd "$acrpwd
 
-echo "ACR Login"
+echo ".....ACR Login....."
 docker login -u $acr -p $acrpwd $acr.azurecr.io
 
 az acr login -n $acr
 
-echo "Downloading nginx from docker hub"
+echo ".....Downloading nginx from docker hub....."
 ## Download the nginx image to local machine 
-img=nginx
+img=nginx:latest
 docker pull $img
 
-image=$acr.azurecr.io/$img:latest
+image=$acr.azurecr.io/$img
 
-docker images
+# docker images
 #----------------Manually copy the IMAGE ID from console-----------
 # Get docker image ID for $img
-image_id=$(docker images -f reference=$img"*" -q)
+image_id=$(docker images -q $img)
 
 docker tag $image_id $image
 
-echo "Push NGINX to ACR"
+echo ".....Push NGINX to ACR....."
 docker push $image
 
-echo "Creating ACI"
+echo ".....Creating ACI....."
 # Azure Container Instance (ACI)
 aci=nginx$rnd
 # create in different resource group $g2 because it will be easy to clean
@@ -56,7 +56,7 @@ aciIp=$(az container show -g $g2 -n $aci --query 'ipAddress.ip' -o tsv)
 echo $aciIp
 curl http://$aciIp
 
-echo "Creating App Services (Container)"
+echo ".....Creating App Services (Container)....."
 # Azure App Service (Container)
 plan=asPlan$rnd
 webapp=wgwebapp$rnd
@@ -68,14 +68,14 @@ az webapp create -g $g2 -n $webapp -p $plan -i=$image -s $acr -w $acrpwd
 
 curl http://$webapp.azurewebsites.net 
 
-echo "Creating AKS"
+echo ".....Creating AKS....."
 # Azure Kubernetes Service (AKS)
 aks=wgaks$rnd
 az aks create -n $aks -g $g --generate-ssh-keys #-c 1 
 
 az aks get-credentials -n $aks -g $g
 
-echo "Attaching AKS and ACR"
+echo ".....Attaching AKS and ACR....."
 
 #attach AKS with ACR
 az aks update -n $aks -g $g --attach-acr $acr
