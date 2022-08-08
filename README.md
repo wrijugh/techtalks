@@ -6,39 +6,56 @@ Planning to cover various webiners on Azure, Programming, DevOps etc. Stay tuned
 
 [https://wrijugh.github.io/techtalks/](https://wrijugh.github.io/techtalks/)
 
+---
 
-## Chanllenges of Cloud Migrations (Architects meetup)
+## Public Meetup Events 
+*2022*
+
+**Chanllenges of Cloud Migrations (Architects meetup)**
+
 *6-Aug-2022 (in-person)*, for DotNet Architects Bangalore Group
-[Slide from the presentation](slides/Challenges-of-Cloud-Migrations-Aug22.pptx)
+[Slide from the talk](slides/Challenges-of-Cloud-Migrations-Aug22.pptx)
 
 [https://youtu.be/pOBO-ciNN6Q](https://youtu.be/pOBO-ciNN6Q)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOBO-ciNN6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Build Cloud Native Apps in Azure (Build 2022) 
+---
+
+**Build Cloud Native Apps in Azure (Build 2022)** 
+
 *July 2022 (in-person)*, for BDotNet Bangalore Group
-[Slide from the presentation](slides/Containers%20in%20Azure%20-%20Global%20Azure%202022.pptx)
+[Slide from the talk](slides/Containers%20in%20Azure%20-%20Global%20Azure%202022.pptx)
 
 [https://youtu.be/1Z8s_SBpgvI](https://youtu.be/1Z8s_SBpgvI)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Z8s_SBpgvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cloud Solution Architect Career Talk 
+---
+
+**Cloud Solution Architect Career Talk** 
+
 *June 2022 (in-person)*, for BITPro Group Bangalore
-[Slide from talk](slides/CSA-role-June22.pptx)
+[Slide from the talk](slides/CSA-role-June22.pptx)
 
-## Global Azure 2022 
-*7-May-2022 (in-person)*, for Azure DevCon Group
+[YouTube playlist on Cloud Solutio Architect series](https://www.youtube.com/playlist?list=PLPIVZsyfpXt8UyEq9EV2F5EksIICZemDR)
 
+---
+
+**Global Azure 2022** 
+
+*7-May-2022 (in-person)*, for AzConf Dev 
 [Slide from the talk](slides/Containers%20in%20Azure%20-%20Global%20Azure%202022.pptx)
 
-[https://youtu.be/xe9cJnGO_eo](https://youtu.be/xe9cJnGO_eo)
+[https://youtu.be/vn5BkimNk9g](https://youtu.be/vn5BkimNk9g)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xe9cJnGO_eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vn5BkimNk9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 https://bengaluru.globalazure.in/
 
 [Demo Script](global-azure-2022-demo.md)
+
+---
 
 ***Stay tuned***
 
@@ -53,7 +70,7 @@ For the Notification join **Group** [groups.google.com/g/techtalks-wriju](https:
 - Databases in Azure 
 -->
 
-## Past Events
+## Past Private Events
 
 **01. Getting Started in Azure** 
 
