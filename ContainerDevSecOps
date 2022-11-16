@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T13:14:29.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KjzXTE2B9xa4FMz11YtG" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T13:18:48.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DXC1g8-YQ9Y9uDKs56KI" version="20.5.3" type="github">
   <diagram id="l5bI3dlhwmndQGMBz8_u" name="Container-DevSecOps">
-    <mxGraphModel dx="1246" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,37 +123,37 @@
         <mxCell id="1F9Ho1vElOse_vRcTNJj-47" value="&lt;b&gt;Observability&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="669" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-49" value="Hardened Images" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="452" y="293" width="110" height="30" as="geometry" />
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-49" value="Hardened Images" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="282" y="293" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-50" value="DevOps Secrets" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="279" y="291" width="110" height="30" as="geometry" />
+          <mxGeometry x="282" y="242" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-51" value="Azure Policy" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Policy.svg;" parent="1" vertex="1">
-          <mxGeometry x="631.0899999999999" y="331" width="45" height="50" as="geometry" />
+          <mxGeometry x="632.9999999999999" y="320" width="45" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-52" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="588.6700000000001" y="273" as="sourcePoint" />
-            <mxPoint x="633.6700000000001" y="323" as="targetPoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-53" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="682" y="371" as="sourcePoint" />
+            <mxPoint x="700" y="390" as="sourcePoint" />
             <mxPoint x="746" y="441" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-54" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="682" y="321" as="sourcePoint" />
+            <mxPoint x="690" y="320" as="sourcePoint" />
             <mxPoint x="732" y="274" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-55" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=-0.033;entryY=0.874;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-55" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="569" y="433" as="sourcePoint" />
-            <mxPoint x="626.605" y="376.69999999999993" as="targetPoint" />
+            <mxPoint x="610" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-56" value="Static App Security Test (SAST)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=0;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;flipV=1;" parent="1" vertex="1">
@@ -182,6 +182,12 @@
         </mxCell>
         <mxCell id="-HqIHnmb-eJMTlzdIDE--2" value="Secure the Container Development and Deployment in Azure" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="170" y="20" width="698" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-HqIHnmb-eJMTlzdIDE--3" value="Prod Deployment" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.84" y="272" as="sourcePoint" />
+            <mxPoint x="550" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
