@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T13:18:48.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DXC1g8-YQ9Y9uDKs56KI" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T15:18:12.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xNzvjMjkKvIlsOxNstbU" version="20.5.3" type="github">
   <diagram id="l5bI3dlhwmndQGMBz8_u" name="Container-DevSecOps">
-    <mxGraphModel dx="1006" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,8 +126,8 @@
         <mxCell id="1F9Ho1vElOse_vRcTNJj-49" value="Hardened Images" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="282" y="293" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-50" value="DevOps Secrets" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="282" y="242" width="110" height="30" as="geometry" />
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-50" value="DevOps Secrets" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="120" y="390" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-51" value="Azure Policy" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Policy.svg;" parent="1" vertex="1">
           <mxGeometry x="632.9999999999999" y="320" width="45" height="50" as="geometry" />
@@ -162,13 +162,13 @@
         <mxCell id="1F9Ho1vElOse_vRcTNJj-57" value="Dynamic App Security Test (DAST)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=13.99;notch=0;flipH=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=1;" parent="1" vertex="1">
           <mxGeometry x="812" y="202" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-58" value="Image Scanning" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-58" value="Image Scanning" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#330000;labelBorderColor=none;labelBackgroundColor=#FFFFFF;spacingTop=2;spacingRight=19;spacingLeft=23;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="622" y="121" as="sourcePoint" />
             <mxPoint x="552" y="181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-59" value="Container Scanning" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-59" value="Container Scanning" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;spacingLeft=38;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="681" y="121" as="sourcePoint" />
             <mxPoint x="772" y="171" as="targetPoint" />
