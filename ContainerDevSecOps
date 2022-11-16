@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T12:55:58.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="I6FWuKICigFtvXcnShtT" version="20.5.3" type="github">
-  <diagram id="l5bI3dlhwmndQGMBz8_u" name="Page-1">
-    <mxGraphModel dx="875" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-11-16T13:03:31.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X6avhwVyoerjazkHcai-" version="20.5.3" type="github">
+  <diagram id="l5bI3dlhwmndQGMBz8_u" name="Container-DevSecOps">
+    <mxGraphModel dx="875" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,10 +123,10 @@
         <mxCell id="1F9Ho1vElOse_vRcTNJj-47" value="&lt;b&gt;Observability&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="408" y="588" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-49" value="Hardened Images" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;" vertex="1" parent="1">
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-49" value="Hardened Images" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="330" y="212" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1F9Ho1vElOse_vRcTNJj-50" value="DevOps Secrets" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;" vertex="1" parent="1">
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-50" value="DevOps Secrets" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="157" y="210" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1F9Ho1vElOse_vRcTNJj-51" value="Azure Policy" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Policy.svg;" vertex="1" parent="1">
@@ -154,6 +154,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="447" y="352" as="sourcePoint" />
             <mxPoint x="504.605" y="295.69999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-56" value="Static App Security Test (SAST)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=0;flipH=0;fillColor=#f8cecc;strokeColor=#b85450;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="440" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-57" value="Dynamic App Security Test (DAST)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=13.99;notch=0;flipH=1;fillColor=#f8cecc;strokeColor=#b85450;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="121" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-58" value="Image Scanning" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="40" as="sourcePoint" />
+            <mxPoint x="430" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1F9Ho1vElOse_vRcTNJj-59" value="Container Scanning" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="559" y="40" as="sourcePoint" />
+            <mxPoint x="650" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
